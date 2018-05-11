@@ -30,10 +30,9 @@ class Matrix:
 
     def matprint(self):
         for list in self.matrix:
-            print list
+            print(list)
         print
 
 v = Matrix([[4, 5], [6, 7]])
 w = Matrix([[7, 8], [8, 4]])
-
-print v.msum(w).matprint()
+print(v.msum(w).matprint())
